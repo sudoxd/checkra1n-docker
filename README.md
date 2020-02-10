@@ -8,4 +8,10 @@ webra1n starts up at the moment but cant connect into it from the web
 
 ### howq it work and how 2 use???
 
-file downloads latest checkra1n using apt in ubuntu docker img and runs the webra1n instance, you connect using (docker-ip):1337
+1. clone xd
+
+2. `docker build -t checkra1n`
+
+3. `docker run -p 1337:1337 checkra1n`
+
+4. access at [dockerip]:1337
